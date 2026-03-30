@@ -1,4 +1,4 @@
 <x-layout>
     <x-slot:pageTitle>{{ $pageTitle }}</x-slot:pageTitle>
-    <h3>Halo ini adalah halaman {{ $pageTitle }}</h3>
+    <a href="/create-product">Add New Product</a>
   </x-layout>
